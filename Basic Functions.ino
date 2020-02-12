@@ -11,8 +11,8 @@
 #include <WiFiClientSecure.h>
 
 //------- WiFi Settings -------
-char ssid[] = "Deshpandes";       // your network SSID (name)
-char password[] = "anna123123";  // your network key
+char ssid[] = "/- SSID";       // your network SSID (name)
+char password[] = "/- Password";  // your network key
 
 //#define TELEGRAM_BUTTON_PIN D4
 #define MISO_PIN D6  
@@ -22,8 +22,8 @@ char password[] = "anna123123";  // your network key
 
 
 // ------- Telegram config --------
-#define BOT_TOKEN "478939438:AAF6tUAJ7V4B2ZnqYnaqOk9bXL_m5XWmxIY"  // your Bot Token (Get from Botfather)
-#define CHAT_ID "440398391" // Chat ID of where you want the message to go (You can use MyIdBot to get the chat ID)
+#define BOT_TOKEN "Bot token"  // your Bot Token (Get from Botfather)
+#define CHAT_ID "Chat-ID" // Chat ID of where you want the message to go (You can use MyIdBot to get the chat ID)
 
 // SSL client needed for both libraries
 WiFiClientSecure client;
